@@ -33,7 +33,7 @@ This project is a dynamic and interactive quiz application built using **JavaScr
 
 ---
 
-### 📝 How to Use
+### 🚀 How to Use
 
 1. **Start the Quiz**: Click the "Start Quiz" button to begin.
 2. **Answer Questions**: Select an answer for each question and proceed to the next.
@@ -42,7 +42,7 @@ This project is a dynamic and interactive quiz application built using **JavaScr
 
 ---
 
-### 💾 Installation
+### 🛠️ Installation
 
 To use the quiz offline:
 
