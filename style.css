@@ -665,7 +665,7 @@ footer .next_btn:hover {
 
     /* Start button size */
     .start_btn {
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px 20px;
     }
 
@@ -684,11 +684,11 @@ footer .next_btn:hover {
     }
 
     .info_box .info_list .info {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .info_box .buttons button {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     /* Quiz box adjustments */
