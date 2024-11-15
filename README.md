@@ -1,4 +1,4 @@
-# Quiz-App
+# <h1 align="center"> Quiz-App
 
 This project is a dynamic and interactive quiz application built using **JavaScript**, **HTML**, and **CSS**. The app offers 200 multiple-choice questions across various topics, allowing users to test their knowledge, track scores, and review the correct answers after completing the quiz.
 
