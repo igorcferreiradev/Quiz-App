@@ -187,6 +187,8 @@ body {
     background: #007bff;
 }
 
+/* Quiz Box */
+
 .quiz_box {
     width: 550px;
     overflow: hidden;
@@ -417,6 +419,8 @@ footer .next_btn:hover {
     background: #015cbd;
 }
 
+/* Result Box */
+
 .result_box {
     background: #1C1F2C;
     width: 450px;
@@ -533,6 +537,7 @@ footer .next_btn:hover {
     100% { box-shadow: 0 0 30px #015cbd; }    
 }
 
+
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
 
@@ -574,8 +579,7 @@ footer .next_btn:hover {
 
     /* Quiz box adjustments */
     .quiz_box {
-        width: 90%;
-        padding: 10px;
+        width: 70%;
     }
 
     .quiz_box header {
@@ -583,7 +587,7 @@ footer .next_btn:hover {
     }
 
     .quiz_box header .title {
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .quiz_box header .timer {
@@ -611,8 +615,15 @@ footer .next_btn:hover {
     }
 
     .option_list .option .icon {
-        height: 22px;
-        width: 22px;
+        height: 25px;
+        width: 25px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 13px;
+        line-height: 22px;
+        pointer-events: none;
+        transition: all 0.5s ease-in; 
     }
 
     /* Adjust footer and next button */
@@ -693,11 +704,11 @@ footer .next_btn:hover {
 
     /* Quiz box adjustments */
     .quiz_box {
-        padding: 5px;
+        width: 90%;
     }
 
     .quiz_box header .title {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .quiz_box header .timer {
@@ -716,6 +727,18 @@ footer .next_btn:hover {
     .option_list .option {
         font-size: 14px;
         padding: 8px 10px;
+    }
+
+    .option_list .option .icon {
+        height: 25px;
+        width: 25px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 13px;
+        line-height: 21px;
+        pointer-events: none;
+        transition: all 0.5s ease-in; 
     }
 
     .quiz_box footer .next_btn {
